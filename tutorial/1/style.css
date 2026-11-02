@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #333;
+}
+
+section {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.box {
+    background: #f0f4f8;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+table, th, td {
+    border: 1px solid #999;
+    border-collapse: collapse;
+    padding: 6px 10px;
+}
+
+nav a {
+    margin-right: 12px;
+}

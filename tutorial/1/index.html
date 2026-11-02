@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Examples of the most common HTML tags">
+    <title>HTML Tags Examples</title>
+
+    <!-- <link> connects an external file. Uncomment once you have a style.css next to this file:
+
+    -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===================== SEMANTIC LAYOUT ===================== -->
+<!-- header: the top of the page (or the top of a section) -->
+<header>
+    <h1>HTML Tags: Lesson 1</h1>
+    <!-- nav: a group of navigation links. The # links jump to the id of an element on this page -->
+    <nav>
+        <a href="#text">Text</a>
+        <a href="#links-media">Links &amp; Media</a>
+        <a href="#lists">Lists</a>
+        <a href="#layout">Layout</a>
+        <a href="#tables">Tables</a>
+        <a href="#forms">Forms</a>
+    </nav>
+</header>
+
+<!-- main: the main content of the page. Use it only once per page -->
+<main>
+
+    <!-- section: a themed group of content, usually with its own heading -->
+    <section id="text">
+        <h2>1. Text</h2>
+
+        <!-- Headings: h1 is the most important, h6 the least. Use h1 once per page -->
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+
+        <!-- p: a paragraph -->
+        <p>This is a paragraph. Browsers add space above and below each one.</p>
+
+        <!-- br: a line break (no closing tag) -->
+        <p>First line<br>Second line, same paragraph.</p>
+
+        <!-- hr: a horizontal line that separates content (no closing tag) -->
+        <hr>
+
+        <!-- strong / em: text with meaning (important / emphasised) -->
+        <p>This is <strong>important</strong> and this is <em>emphasised</em>.</p>
+
+        <!-- b / i: bold and italic only for looks, with no extra meaning -->
+        <p>This is <b>bold</b> and this is <i>italic</i>.</p>
+
+        <!-- small: small print. mark: highlighted text -->
+        <p><small>Small print text.</small> And a
+            <mark>highlighted</mark>
+            word.
+        </p>
+
+        <!-- q: short inline quote. blockquote: a longer quote shown as its own block -->
+        <p>As the saying goes: <q>practice makes perfect</q>.</p>
+        <blockquote>
+            A blockquote is used for longer quotations that stand on their own.
+        </blockquote>
+
+        <!-- code: inline code. pre: keeps spaces and line breaks exactly as typed -->
+        <p>Use the <code>&lt;p&gt;</code> tag for paragraphs.</p>
+        <pre>
+function hello() {
+    console.log("Hello!");
+}
+            </pre>
+
+        <!-- span: a generic inline container with no meaning. Handy for styling a few words -->
+        <p>My favourite colour is <span style="color: crimson;">red</span>.</p>
+    </section>
+
+    <section id="links-media">
+        <h2>2. Links &amp; Media</h2>
+
+        <!-- a: a link. href is where it goes. target="_blank" opens a new tab -->
+        <p><a href="https://developer.mozilla.org" target="_blank">Visit MDN Web Docs</a></p>
+        <p><a href="mailto:someone@example.com">Send an email</a></p>
+        <p><a href="#forms">Link to the forms section on this page</a></p>
+
+        <!-- img: an image (no closing tag). src is the file, alt describes it for screen readers -->
+        <img
+                src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='100'><rect width='200' height='100' fill='steelblue'/><text x='100' y='55' fill='white' font-size='18' text-anchor='middle'>An image</text></svg>"
+                alt="A blue rectangle with the words 'An image'"
+                width="200">
+
+        <!-- figure + figcaption: an image (or other content) with a caption -->
+        <figure>
+            <img
+                    src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='100'><rect width='200' height='100' fill='seagreen'/><text x='100' y='55' fill='white' font-size='18' text-anchor='middle'>A figure</text></svg>"
+                    alt="A green rectangle with the words 'A figure'"
+                    width="200">
+            <figcaption>Figure 1: an image with a caption.</figcaption>
+        </figure>
+
+        <!-- video / audio: players. source gives the file. The text inside shows if the browser can't play it.
+             These files don't exist yet. Put your own video.mp4 / sound.mp3 next to this file to try them -->
+        <p>
+            <video controls width="300">
+                <source src="video.mp4" type="video/mp4">
+                Your browser does not support video.
+            </video>
+        </p>
+        <p>
+            <audio controls>
+                <source src="sound.mp3" type="audio/mpeg">
+                Your browser does not support audio.
+            </audio>
+        </p>
+
+        <!-- iframe: embeds another page inside this one. srcdoc here holds a tiny page so it works offline -->
+        <iframe
+                title="An embedded page"
+                width="300" height="100"
+                srcdoc="<p style='font-family:Arial'>I am a page inside a page.</p>"></iframe>
+    </section>
+
+    <section id="lists">
+        <h2>3. Lists</h2>
+
+        <!-- ul: unordered (bullets). li: one item. Each li goes inside a ul or ol -->
+        <h3>Unordered list</h3>
+        <ul>
+            <li>Apples</li>
+            <li>Bananas</li>
+            <li>Cherries</li>
+        </ul>
+
+        <!-- ol: ordered (numbers). Lists can be nested inside list items -->
+        <h3>Ordered list</h3>
+        <ol>
+            <li>Open the editor</li>
+            <li>Write some HTML
+                <ul>
+                    <li>Start with the skeleton</li>
+                    <li>Add content in the body</li>
+                </ul>
+            </li>
+            <li>Open it in the browser</li>
+        </ol>
+
+        <!-- dl: description list. dt = the term, dd = its description -->
+        <h3>Description list</h3>
+        <dl>
+            <dt>HTML</dt>
+            <dd>Defines the structure and content of a page.</dd>
+            <dt>CSS</dt>
+            <dd>Defines how the page looks.</dd>
+        </dl>
+    </section>
+
+    <section id="layout">
+        <h2>4. Layout containers</h2>
+
+        <!-- article: self-contained content that would make sense on its own (blog post, news story) -->
+        <article class="box">
+            <h3>An article</h3>
+            <p>An article could be a blog post, a news story, or a product card.</p>
+        </article>
+
+        <!-- aside: content related to, but separate from, the main content (sidebar, tips) -->
+        <aside class="box" style="margin-top: 10px;">
+            <p><strong>Aside:</strong> a tip or side note goes here.</p>
+        </aside>
+
+        <!-- div: a generic block container with no meaning. Use it when no semantic tag fits -->
+        <div style="border: 2px dashed #999; padding: 10px; margin-top: 10px;">
+            <p>This paragraph is inside a div with a dashed border.</p>
+        </div>
+    </section>
+
+    <section id="tables">
+        <h2>5. Tables</h2>
+
+        <!-- table > caption, thead / tbody / tfoot, tr (row), th (header cell), td (data cell) -->
+        <table>
+            <caption>Weekly shopping</caption>
+            <thead>
+            <tr>
+                <th>Item</th>
+                <th>Quantity</th>
+                <th>Price</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Apples</td>
+                <td>6</td>
+                <td>£2.00</td>
+            </tr>
+            <tr>
+                <td>Bread</td>
+                <td>1</td>
+                <td>£1.20</td>
+            </tr>
+            </tbody>
+            <tfoot>
+            <tr>
+                <td colspan="2">Total</td>
+                <td>£3.20</td>
+            </tr>
+            </tfoot>
+        </table>
+    </section>
+
+    <section id="forms">
+        <h2>6. Forms</h2>
+
+        <!-- form: wraps the inputs. action = where to send the data. method = how -->
+        <form action="#" method="post">
+
+            <!-- fieldset + legend: group related fields with a title -->
+            <fieldset>
+                <legend>Your details</legend>
+
+                <!-- label: describes an input. "for" must match the input's id, so clicking the label focuses the input -->
+                <p>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your name">
+                </p>
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </p>
+                <p>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password">
+                </p>
+                <p>
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" name="age" min="1" max="120">
+                </p>
+                <p>
+                    <label for="date">Date:</label>
+                    <input type="date" id="date" name="date">
+                </p>
+            </fieldset>
+
+            <!-- select + option: a dropdown -->
+            <p>
+                <label for="colour">Favourite colour:</label>
+                <select id="colour" name="colour">
+                    <option value="red">Red</option>
+                    <option value="green">Green</option>
+                    <option value="blue">Blue</option>
+                </select>
+            </p>
+
+            <!-- radio buttons: same name = only one can be chosen -->
+            <p>
+                Experience level:
+                <input type="radio" id="beginner" name="level" value="beginner">
+                <label for="beginner">Beginner</label>
+                <input type="radio" id="advanced" name="level" value="advanced">
+                <label for="advanced">Advanced</label>
+            </p>
+
+            <!-- checkbox: on or off -->
+            <p>
+                <input type="checkbox" id="newsletter" name="newsletter">
+                <label for="newsletter">Subscribe to the newsletter</label>
+            </p>
+
+            <!-- textarea: multi-line text -->
+            <p>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="40"></textarea>
+            </p>
+
+            <!-- button: type="submit" sends the form. type="reset" clears it -->
+            <button type="submit">Send</button>
+            <button type="reset">Clear</button>
+        </form>
+    </section>
+
+</main>
+
+<!-- footer: the bottom of the page (or of a section) -->
+<footer>
+    <p><small>&copy; 2026 HTML Tags Lesson</small></p>
+</footer>
+
+<!-- script: JavaScript. Runs when the browser reaches it, so it usually goes at the end of the body -->
+<script>
+    console.log("Open the browser console (F12) to see this message.");
+</script>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+
+Welcome to WebDM
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non possimus ab labore provident mollitia. Id assumenda voluptate earum corporis facere quibusdam quisquam iste ipsa cumque unde nisi, totam quas ipsam.
+
+---
+Introduction to Web Development
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deserunt neque tempore recusandae animi soluta quasi? Asperiores rem dolore eaque vel, porro, soluta unde debitis aliquam laboriosam. Repellat explicabo, maiores!
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis optio neque consectetur consequatur magni in nisi, natus beatae quidem quam odit commodi ducimus totam eum, alias, adipisci nesciunt voluptate. Voluptatum. 
+
+---
+HTML 5
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus.
+
+---
+CSS 3
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus totam ut praesentium aut.
+
+---
+JavaScript
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.
+
+---
+Contact
+Valentin Adamescu
+University of Portsmouth
+School of Computing
+Buckingham Building
+Portsmouth PO1 3HE
+P: 02392846385
+E: valentin.adamescu@port.ac.uk
+
+---
+Copyright © WebDM 2023
