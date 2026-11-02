@@ -1,0 +1,27 @@
+html {
+    font-size: 20px;
+}
+
+.containers {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    height: 1000px;
+}
+
+.container {
+    border: 1px solid red;
+    padding: 20px;
+    background-color: #ccc;
+    color: black;
+}
+
+.container h1{
+    font-size: 2rem;
+}
+
+p span{
+    display: inline;
+    width: 200px;
+}

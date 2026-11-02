@@ -25,6 +25,7 @@
         <a href="#layout">Layout</a>
         <a href="#tables">Tables</a>
         <a href="#forms">Forms</a>
+        <a href="https://google.com" target="_blank">Google</a>
     </nav>
 </header>
 
@@ -34,7 +35,6 @@
     <!-- section: a themed group of content, usually with its own heading -->
     <section id="text">
         <h2>1. Text</h2>
-
         <!-- Headings: h1 is the most important, h6 the least. Use h1 once per page -->
         <h1>Heading 1</h1>
         <h2>Heading 2</h2>
@@ -43,6 +43,10 @@
         <h5>Heading 5</h5>
         <h6>Heading 6</h6>
 
+        <hgroup>
+            <h2>Blog Title</h2>
+            <p class="subtitle">Blog subtitle</p>
+        </hgroup>
         <!-- p: a paragraph -->
         <p>This is a paragraph. Browsers add space above and below each one.</p>
 
@@ -108,8 +112,7 @@ function hello() {
         <!-- video / audio: players. source gives the file. The text inside shows if the browser can't play it.
              These files don't exist yet. Put your own video.mp4 / sound.mp3 next to this file to try them -->
         <p>
-            <video controls width="300">
-                <source src="video.mp4" type="video/mp4">
+            <video controls width="300" src="">
                 Your browser does not support video.
             </video>
         </p>
@@ -125,6 +128,7 @@ function hello() {
                 title="An embedded page"
                 width="300" height="100"
                 srcdoc="<p style='font-family:Arial'>I am a page inside a page.</p>"></iframe>
+        <iframe width="300" src="https://google.com"></iframe>
     </section>
 
     <section id="lists">
@@ -165,6 +169,14 @@ function hello() {
         <h2>4. Layout containers</h2>
 
         <!-- article: self-contained content that would make sense on its own (blog post, news story) -->
+        <article class="box">
+            <h3>An article</h3>
+            <p>An article could be a blog post, a news story, or a product card.</p>
+        </article>
+        <article class="box">
+            <h3>An article</h3>
+            <p>An article could be a blog post, a news story, or a product card.</p>
+        </article>
         <article class="box">
             <h3>An article</h3>
             <p>An article could be a blog post, a news story, or a product card.</p>
@@ -219,7 +231,7 @@ function hello() {
         <h2>6. Forms</h2>
 
         <!-- form: wraps the inputs. action = where to send the data. method = how -->
-        <form action="#" method="post">
+        <form method="POST">
 
             <!-- fieldset + legend: group related fields with a title -->
             <fieldset>
@@ -245,6 +257,14 @@ function hello() {
                 <p>
                     <label for="date">Date:</label>
                     <input type="date" id="date" name="date">
+                </p>
+                <p>
+                    <label for="date">Date:</label>
+                    <input type="time" id="time" name="date">
+                </p>
+                <p>
+                    <label for="date">Date:</label>
+                    <input type="datetime-local" id="time" name="date">
                 </p>
             </fieldset>
 
@@ -280,8 +300,7 @@ function hello() {
             </p>
 
             <!-- button: type="submit" sends the form. type="reset" clears it -->
-            <button type="submit">Send</button>
-            <button type="reset">Clear</button>
+            <button>Send</button>
         </form>
     </section>
 
