@@ -1,11 +1,12 @@
-
 // ===================================
 // 1. VARIABLES
 // ===================================
 
+// const is used for values that won't be reassigned
 const coffeeShop = "The Daily Grind";
 const openingHour = 8;
 
+// let is used for values that can change
 let customerCount = 0;
 
 console.log(coffeeShop);
@@ -37,7 +38,6 @@ function greetCustomer() {
 
 greetCustomer();
 
-
 // Arrow function
 const sayGoodbye = () => {
     console.log("Thank you for visiting!");
@@ -54,7 +54,7 @@ function greetByName(name) {
     return "Hello, " + name + "!";
 }
 
-// Arrow function with a parameter
+// Arrow function with parameters
 const calculatePrice = (price, quantity) => {
     return price * quantity;
 };
@@ -140,4 +140,25 @@ const specialDrink = document.querySelector(".special-drink");
 
 specialButton.addEventListener("click", () => {
     specialDrink.textContent = "Today's special is an Iced Latte!";
+});
+
+
+// ===================================
+// 11. DATASET ATTRIBUTES
+// ===================================
+
+// Select all interactive drink buttons
+const interactiveDrinks = document.querySelectorAll("[data-drink-name]");
+const selectedDrink = document.querySelector(".selected-drink");
+
+// Add a click event listener to each drink
+interactiveDrinks.forEach((drink) => {
+    drink.addEventListener("click", () => {
+
+        // Read the data-drink-name attribute using dataset
+        const drinkName = drink.dataset.drinkName;
+
+        // Display the selected drink
+        selectedDrink.textContent = "You selected: " + drinkName;
+    });
 });
