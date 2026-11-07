@@ -1,0 +1,200 @@
+
+/* General styles */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #faf7f2;
+}
+
+h1, h2, h3 {
+    color: #4b3025;
+}
+
+section {
+    padding: 2.5rem 5rem;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem 5rem;
+    background-color: #4b3025;
+}
+
+header h1 {
+    color: white;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    gap: 1.25rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero */
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.hero-content,
+.hero-image {
+    flex: 1;
+}
+
+.hero h2 {
+    font-size: 2.25rem;
+}
+
+.hero p {
+    line-height: 1.6;
+}
+
+.hero img {
+    width: 100%;
+    border-radius: 0.625rem;
+}
+
+/* Hero button */
+.button {
+    display: inline-block;
+    padding: 0.75rem 1.25rem;
+    background-color: #8b5e3c;
+    color: white;
+    text-decoration: none;
+    border-radius: 0.3125rem;
+}
+
+/* Figures */
+figure {
+    margin: 0;
+}
+
+figcaption {
+    font-size: 0.75rem;
+    color: #777;
+    margin-top: 0.3125rem;
+}
+
+/* About */
+.about {
+    text-align: center;
+    background-color: #eee5d9;
+}
+
+.about p {
+    max-width: 37.5rem;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* Drinks */
+.drinks h2 {
+    text-align: center;
+    margin-bottom: 1.875rem;
+}
+
+.drink-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.25rem;
+}
+
+.drink-card {
+    background-color: white;
+    padding: 0.9375rem;
+    border-radius: 0.625rem;
+    text-align: center;
+}
+
+.drink-card figure {
+    margin-bottom: 0.9375rem;
+}
+
+.drink-card img {
+    width: 100%;
+    border-radius: 0.3125rem;
+}
+
+.drink-card hgroup {
+    margin: 0;
+}
+
+.drink-card hgroup h3 {
+    margin-bottom: 0.3125rem;
+}
+
+.drink-card hgroup p {
+    color: #666;
+    margin-top: 0;
+}
+
+.drink-card .price {
+    font-weight: bold;
+    color: #8b5e3c;
+}
+
+/* Footer */
+footer {
+    background-color: #4b3025;
+    color: white;
+    text-align: center;
+    padding: 1.25rem;
+}
+
+/* Tablet */
+@media (max-width: 56.25rem) {
+    section {
+        padding: 2rem 2.5rem;
+    }
+
+    header {
+        padding: 1.25rem 2.5rem;
+    }
+
+    .drink-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Mobile */
+@media (max-width: 37.5rem) {
+    section {
+        padding: 2rem 1.25rem;
+    }
+
+    header {
+        flex-direction: column;
+        gap: 0.9375rem;
+        padding: 1.25rem;
+    }
+
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero h2 {
+        font-size: 1.75rem;
+    }
+
+    .drink-container {
+        grid-template-columns: 1fr;
+    }
+}
