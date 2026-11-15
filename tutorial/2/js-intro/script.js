@@ -139,7 +139,7 @@ const specialButton = document.querySelector(".special-button");
 const specialDrink = document.querySelector(".special-drink");
 
 specialButton.addEventListener("click", () => {
-    specialDrink.textContent = "Today's special is an Iced Latte!";
+    specialDrink.innerHTML = "<p>Hello world</p>";
 });
 
 
