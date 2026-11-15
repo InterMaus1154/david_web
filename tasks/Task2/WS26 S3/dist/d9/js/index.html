@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>D9 - Connection Finder</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>D9 - Connection Finder</h1>
+    </header>
+
+    <main>
+      <form id="search-form" class="card" novalidate>
+        <div class="field-row">
+          <div class="field">
+            <label for="from">From</label>
+            <select id="from" name="from"></select>
+          </div>
+          <div class="field">
+            <label for="to">To</label>
+            <select id="to" name="to"></select>
+          </div>
+        </div>
+        <p class="note">
+          All flights on 20 November 2026. Direct flights and one-stop journeys
+          with 45 minutes to 4 hours between flights.
+        </p>
+        <button type="submit">Search</button>
+      </form>
+
+      <section class="card">
+        <h2 id="results-title">Journeys</h2>
+        <ol id="results" class="results"></ol>
+      </section>
+    </main>
+    <!--Do not modify any code after this line-->
+    <footer id="dynamicFooter"></footer>
+    <script src="data/flights.js"></script>
+    <script src="solution.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+      document.getElementById('dynamicFooter').innerHTML =
+        '&copy; ' +
+        new Date().getFullYear() +
+        ' WorldSkills | All rights reserved.';
+    </script>
+  </body>
+</html>

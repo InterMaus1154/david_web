@@ -1,0 +1,126 @@
+/*CSS - provided, do not modify*/
+:root {
+  --brand: #ffcc00;
+  --ink: #3f3f42;
+  --muted: #52525b;
+}
+
+body,
+h1,
+h2,
+h3,
+p,
+header,
+main,
+footer,
+div,
+form {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  color: var(--ink);
+}
+
+header {
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.heading-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  vertical-align: -4px;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+h2,
+h3 {
+  font-size: 1.1rem;
+  margin: 24px 0 12px;
+}
+
+h2:first-child,
+h3:first-child {
+  margin-top: 0;
+}
+
+main {
+  padding: 40px 16px 80px;
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem;
+  background-color: #f5f5f5;
+  border-top: 1px solid #ddd;
+  text-align: center;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 24px;
+  background-color: #ffffff;
+}
+
+.field {
+  margin-bottom: 14px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+input,
+select {
+  width: 100%;
+  box-sizing: border-box;
+  font: inherit;
+  padding: 10px 12px;
+  border: 1px solid #c4c4c8;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+
+.seat-map {
+  display: block;
+  width: 100%;
+  max-width: 360px;
+  margin: 0 auto 20px;
+}
+
+.button {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  font: inherit;
+  font-weight: bold;
+  text-align: center;
+  padding: 12px 20px;
+  border: 0;
+  border-radius: 4px;
+  background-color: var(--brand);
+  color: var(--ink);
+  cursor: pointer;
+}
+
+.button:focus-visible {
+  outline: 3px solid var(--ink);
+  outline-offset: 2px;
+}

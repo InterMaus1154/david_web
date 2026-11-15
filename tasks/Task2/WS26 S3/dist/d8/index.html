@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>D8 - Fare Calendar</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>D8 - Fare Calendar</h1>
+    </header>
+
+    <main>
+      <div class="card">
+        <div class="calendar-head">
+          <button id="prev" type="button" aria-label="Previous month">
+            &lt;
+          </button>
+          <h2 id="month-title">Month</h2>
+          <button id="next" type="button" aria-label="Next month">&gt;</button>
+        </div>
+        <div class="weekdays" aria-hidden="true">
+          <span>Mon</span>
+          <span>Tue</span>
+          <span>Wed</span>
+          <span>Thu</span>
+          <span>Fri</span>
+          <span>Sat</span>
+          <span>Sun</span>
+        </div>
+        <div id="calendar" class="calendar"></div>
+        <p class="legend">
+          Stuttgart (STR) to Barcelona (BCN): lowest fare per day in EUR. Days
+          without flights cannot be selected.
+        </p>
+      </div>
+
+      <section class="card flights">
+        <h2 id="day-title">Select a day</h2>
+        <ul id="day-flights" class="flight-list"></ul>
+      </section>
+    </main>
+    <!--Do not modify any code after this line-->
+    <footer id="dynamicFooter"></footer>
+    <script src="data/fares.js"></script>
+    <script src="js/script.js"></script>
+    <script src="solution.js"></script>
+    <script>
+      document.getElementById('dynamicFooter').innerHTML =
+        '&copy; ' +
+        new Date().getFullYear() +
+        ' WorldSkills | All rights reserved.';
+    </script>
+  </body>
+</html>

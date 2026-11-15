@@ -1,0 +1,201 @@
+{
+  "date": "2026-11-20",
+  "airports": {
+    "STR": "Stuttgart",
+    "FRA": "Frankfurt",
+    "FKB": "Karlsruhe/Baden-Baden",
+    "VIE": "Vienna",
+    "PRG": "Prague",
+    "BUD": "Budapest",
+    "BCN": "Barcelona",
+    "LIS": "Lisbon",
+    "MXP": "Milan Malpensa",
+    "ORY": "Paris Orly"
+  },
+  "flights": [
+    {
+      "flight": "SW 212",
+      "from": "STR",
+      "to": "FRA",
+      "dep": "06:00",
+      "arr": "06:50",
+      "fare": 59
+    },
+    {
+      "flight": "SW 213",
+      "from": "FRA",
+      "to": "STR",
+      "dep": "08:00",
+      "arr": "08:50",
+      "fare": 59
+    },
+    {
+      "flight": "SW 702",
+      "from": "STR",
+      "to": "BCN",
+      "dep": "07:10",
+      "arr": "09:25",
+      "fare": 139
+    },
+    {
+      "flight": "SW 820",
+      "from": "FRA",
+      "to": "BCN",
+      "dep": "07:35",
+      "arr": "09:50",
+      "fare": 89
+    },
+    {
+      "flight": "SW 118",
+      "from": "FKB",
+      "to": "VIE",
+      "dep": "08:00",
+      "arr": "09:30",
+      "fare": 69
+    },
+    {
+      "flight": "SW 451",
+      "from": "STR",
+      "to": "PRG",
+      "dep": "08:15",
+      "arr": "09:35",
+      "fare": 74
+    },
+    {
+      "flight": "SW 214",
+      "from": "STR",
+      "to": "FRA",
+      "dep": "09:30",
+      "arr": "10:20",
+      "fare": 59
+    },
+    {
+      "flight": "SW 703",
+      "from": "BCN",
+      "to": "STR",
+      "dep": "10:15",
+      "arr": "12:30",
+      "fare": 129
+    },
+    {
+      "flight": "SW 540",
+      "from": "VIE",
+      "to": "BUD",
+      "dep": "10:30",
+      "arr": "11:20",
+      "fare": 49
+    },
+    {
+      "flight": "SW 822",
+      "from": "FRA",
+      "to": "BCN",
+      "dep": "10:50",
+      "arr": "13:05",
+      "fare": 79
+    },
+    {
+      "flight": "SW 462",
+      "from": "PRG",
+      "to": "BUD",
+      "dep": "11:00",
+      "arr": "12:10",
+      "fare": 59
+    },
+    {
+      "flight": "SW 815",
+      "from": "STR",
+      "to": "LIS",
+      "dep": "11:30",
+      "arr": "14:20",
+      "fare": 139
+    },
+    {
+      "flight": "SW 824",
+      "from": "FRA",
+      "to": "BCN",
+      "dep": "12:00",
+      "arr": "14:15",
+      "fare": 69
+    },
+    {
+      "flight": "SW 376",
+      "from": "STR",
+      "to": "ORY",
+      "dep": "13:00",
+      "arr": "14:25",
+      "fare": 79
+    },
+    {
+      "flight": "SW 830",
+      "from": "BCN",
+      "to": "LIS",
+      "dep": "15:00",
+      "arr": "16:40",
+      "fare": 79
+    },
+    {
+      "flight": "SW 348",
+      "from": "STR",
+      "to": "VIE",
+      "dep": "16:20",
+      "arr": "17:55",
+      "fare": 79
+    },
+    {
+      "flight": "SW 630",
+      "from": "STR",
+      "to": "MXP",
+      "dep": "17:10",
+      "arr": "18:20",
+      "fare": 69
+    },
+    {
+      "flight": "SW 640",
+      "from": "MXP",
+      "to": "BCN",
+      "dep": "17:40",
+      "arr": "19:25",
+      "fare": 89
+    },
+    {
+      "flight": "SW 706",
+      "from": "STR",
+      "to": "BCN",
+      "dep": "18:05",
+      "arr": "20:20",
+      "fare": 99
+    },
+    {
+      "flight": "SW 349",
+      "from": "VIE",
+      "to": "STR",
+      "dep": "18:40",
+      "arr": "20:15",
+      "fare": 79
+    },
+    {
+      "flight": "SW 631",
+      "from": "MXP",
+      "to": "STR",
+      "dep": "19:00",
+      "arr": "20:10",
+      "fare": 69
+    },
+    {
+      "flight": "SW 930",
+      "from": "VIE",
+      "to": "BCN",
+      "dep": "19:10",
+      "arr": "21:45",
+      "fare": 119
+    },
+    {
+      "flight": "SW 707",
+      "from": "BCN",
+      "to": "STR",
+      "dep": "21:05",
+      "arr": "23:20",
+      "fare": 89
+    }
+  ]
+}

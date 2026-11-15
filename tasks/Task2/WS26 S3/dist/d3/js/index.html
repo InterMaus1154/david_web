@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>D3 - Booking Reference Check</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>D3 - Booking Reference Check</h1>
+    </header>
+
+    <main>
+      <form id="check-form" class="card" novalidate>
+        <label for="reference">Booking reference</label>
+        <div class="row">
+          <input
+            id="reference"
+            name="reference"
+            type="text"
+            maxlength="6"
+            autocomplete="off"
+            placeholder="e.g. AB2CD9"
+          />
+          <button type="submit">Check</button>
+        </div>
+        <p id="result" class="result" aria-live="polite"></p>
+      </form>
+    </main>
+    <!--Do not modify any code after this line-->
+    <footer id="dynamicFooter"></footer>
+    <script src="solution.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+      document.getElementById('dynamicFooter').innerHTML =
+        '&copy; ' +
+        new Date().getFullYear() +
+        ' WorldSkills | All rights reserved.';
+    </script>
+  </body>
+</html>

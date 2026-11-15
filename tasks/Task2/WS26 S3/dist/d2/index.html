@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>D2 - Flight Progress</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/solution.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>D2 - Flight Progress</h1>
+    </header>
+
+    <main>
+      <div class="card">
+        <div class="route">
+          <span class="airport airport-from">
+            <strong>STR</strong>
+            Stuttgart
+          </span>
+          <div class="track">
+            <div class="track-line"></div>
+            <img class="plane" src="img/plane.png" alt="" />
+          </div>
+          <span class="airport airport-to">
+            <strong>VIE</strong>
+            Vienna
+          </span>
+        </div>
+        <p class="note">Hover over the route to pause the aircraft.</p>
+      </div>
+    </main>
+    <!--Do not modify any code after this line-->
+    <footer id="dynamicFooter"></footer>
+    <script>
+      document.getElementById('dynamicFooter').innerHTML =
+        '&copy; ' +
+        new Date().getFullYear() +
+        ' WorldSkills | All rights reserved.';
+    </script>
+  </body>
+</html>

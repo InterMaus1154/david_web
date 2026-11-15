@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>D1 - Departures Board</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/solution.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>D1 - Departures Board</h1>
+    </header>
+
+    <main>
+      <div class="board">
+        <table>
+          <caption>Stuttgart departures</caption>
+          <thead>
+            <tr>
+              <th>Time</th>
+              <th>Flight</th>
+              <th>Destination</th>
+              <th class="col-gate">Gate</th>
+              <th class="col-aircraft">Aircraft</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>16:05</td>
+              <td>SW 212</td>
+              <td>Frankfurt</td>
+              <td class="col-gate">A12</td>
+              <td class="col-aircraft">A319</td>
+              <td class="status" data-status="on-time">On time</td>
+            </tr>
+            <tr>
+              <td>16:20</td>
+              <td>SW 348</td>
+              <td>Vienna</td>
+              <td class="col-gate">A07</td>
+              <td class="col-aircraft">A320</td>
+              <td class="status" data-status="delayed">Delayed</td>
+            </tr>
+            <tr>
+              <td>16:35</td>
+              <td>SW 451</td>
+              <td>Prague</td>
+              <td class="col-gate">B03</td>
+              <td class="col-aircraft">E195</td>
+              <td class="status" data-status="on-time">On time</td>
+            </tr>
+            <tr>
+              <td>16:50</td>
+              <td>SW 507</td>
+              <td>Budapest</td>
+              <td class="col-gate">B11</td>
+              <td class="col-aircraft">A320</td>
+              <td class="status" data-status="cancelled">Cancelled</td>
+            </tr>
+            <tr>
+              <td>17:10</td>
+              <td>SW 630</td>
+              <td>Milan Malpensa</td>
+              <td class="col-gate">A04</td>
+              <td class="col-aircraft">A319</td>
+              <td class="status" data-status="on-time">On time</td>
+            </tr>
+            <tr>
+              <td>17:25</td>
+              <td>SW 702</td>
+              <td>Barcelona</td>
+              <td class="col-gate">C02</td>
+              <td class="col-aircraft">A320</td>
+              <td class="status" data-status="on-time">On time</td>
+            </tr>
+            <tr>
+              <td>17:40</td>
+              <td>SW 118</td>
+              <td>Hamburg</td>
+              <td class="col-gate">A15</td>
+              <td class="col-aircraft">E195</td>
+              <td class="status" data-status="delayed">Delayed</td>
+            </tr>
+            <tr>
+              <td>18:00</td>
+              <td>SW 815</td>
+              <td>Lisbon</td>
+              <td class="col-gate">C08</td>
+              <td class="col-aircraft">A320</td>
+              <td class="status" data-status="on-time">On time</td>
+            </tr>
+            <tr>
+              <td>18:15</td>
+              <td>SW 376</td>
+              <td>Paris Orly</td>
+              <td class="col-gate">B06</td>
+              <td class="col-aircraft">A319</td>
+              <td class="status" data-status="on-time">On time</td>
+            </tr>
+            <tr>
+              <td>18:30</td>
+              <td>SW 920</td>
+              <td>London Stansted</td>
+              <td class="col-gate">C11</td>
+              <td class="col-aircraft">A320</td>
+              <td class="status" data-status="cancelled">Cancelled</td>
+            </tr>
+            <tr>
+              <td>18:45</td>
+              <td>SW 462</td>
+              <td>Brno</td>
+              <td class="col-gate">B09</td>
+              <td class="col-aircraft">E195</td>
+              <td class="status" data-status="on-time">On time</td>
+            </tr>
+            <tr>
+              <td>19:05</td>
+              <td>SW 538</td>
+              <td>Bratislava</td>
+              <td class="col-gate">A02</td>
+              <td class="col-aircraft">E195</td>
+              <td class="status" data-status="delayed">Delayed</td>
+            </tr>
+            <tr>
+              <td>19:20</td>
+              <td>SW 644</td>
+              <td>Bucharest</td>
+              <td class="col-gate">C05</td>
+              <td class="col-aircraft">A320</td>
+              <td class="status" data-status="on-time">On time</td>
+            </tr>
+            <tr>
+              <td>19:40</td>
+              <td>SW 886</td>
+              <td>Funchal</td>
+              <td class="col-gate">C14</td>
+              <td class="col-aircraft">A320</td>
+              <td class="status" data-status="on-time">On time</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+    <!--Do not modify any code after this line-->
+    <footer id="dynamicFooter"></footer>
+    <script>
+      document.getElementById('dynamicFooter').innerHTML =
+        '&copy; ' +
+        new Date().getFullYear() +
+        ' WorldSkills | All rights reserved.';
+    </script>
+  </body>
+</html>

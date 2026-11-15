@@ -1,0 +1,124 @@
+/*CSS - provided, do not modify*/
+:root {
+  --brand: #ffcc00;
+  --ink: #3f3f42;
+  --muted: #52525b;
+}
+
+body,
+h1,
+p,
+header,
+main,
+footer,
+div {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  color: var(--ink);
+}
+
+header {
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+main {
+  padding: 40px 16px 80px;
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem;
+  background-color: #f5f5f5;
+  border-top: 1px solid #ddd;
+  text-align: center;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 24px;
+  background-color: #ffffff;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 14px 0;
+  border-bottom: 1px solid #e4e4e7;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.label span {
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.stepper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.stepper button {
+  width: 36px;
+  height: 36px;
+  font: inherit;
+  font-size: 1.25rem;
+  font-weight: bold;
+  line-height: 1;
+  border: 2px solid var(--ink);
+  border-radius: 50%;
+  background-color: #ffffff;
+  color: var(--ink);
+  cursor: pointer;
+}
+
+.stepper button:disabled {
+  border-color: #c4c4c8;
+  color: #c4c4c8;
+  cursor: not-allowed;
+}
+
+.count {
+  min-width: 2ch;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.rules {
+  margin-top: 16px;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.summary {
+  margin-top: 16px;
+  padding: 12px 16px;
+  border-radius: 4px;
+  background-color: var(--brand);
+  font-weight: bold;
+}

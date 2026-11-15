@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>D5 - Passenger Selector</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>D5 - Passenger Selector</h1>
+    </header>
+
+    <main>
+      <div class="card">
+        <div class="row" data-type="adults">
+          <div class="label">
+            <strong>Adults</strong>
+            <span>12 years and over</span>
+          </div>
+          <div class="stepper">
+            <button type="button" class="minus" aria-label="Fewer adults">
+              -
+            </button>
+            <span class="count">1</span>
+            <button type="button" class="plus" aria-label="More adults">
+              +
+            </button>
+          </div>
+        </div>
+
+        <div class="row" data-type="children">
+          <div class="label">
+            <strong>Children</strong>
+            <span>2 to 11 years</span>
+          </div>
+          <div class="stepper">
+            <button type="button" class="minus" aria-label="Fewer children">
+              -
+            </button>
+            <span class="count">0</span>
+            <button type="button" class="plus" aria-label="More children">
+              +
+            </button>
+          </div>
+        </div>
+
+        <div class="row" data-type="infants">
+          <div class="label">
+            <strong>Infants</strong>
+            <span>Under 2, on an adult's lap</span>
+          </div>
+          <div class="stepper">
+            <button type="button" class="minus" aria-label="Fewer infants">
+              -
+            </button>
+            <span class="count">0</span>
+            <button type="button" class="plus" aria-label="More infants">
+              +
+            </button>
+          </div>
+        </div>
+
+        <p class="rules">
+          Up to 9 seated passengers (adults and children) per booking. Each
+          infant travels on an adult's lap, so there cannot be more infants than
+          adults.
+        </p>
+
+        <p id="summary" class="summary" aria-live="polite">1 adult</p>
+      </div>
+    </main>
+    <!--Do not modify any code after this line-->
+    <footer id="dynamicFooter"></footer>
+    <script src="js/script.js"></script>
+    <script src="solution.js"></script>
+    <script>
+      document.getElementById('dynamicFooter').innerHTML =
+        '&copy; ' +
+        new Date().getFullYear() +
+        ' WorldSkills | All rights reserved.';
+    </script>
+  </body>
+</html>

@@ -1,0 +1,94 @@
+/*CSS - provided, do not modify: write your CSS in solution.css*/
+:root {
+  --brand: #ffcc00;
+  --ink: #3f3f42;
+  --row-alt: #f4f4f5;
+  --status-ok: #166534;
+  --status-warn: #9a3412;
+  --status-bad: #991b1b;
+}
+
+body,
+h1,
+header,
+main,
+footer,
+div {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  color: var(--ink);
+}
+
+header {
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+main {
+  padding: 40px 16px 80px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem;
+  background-color: #f5f5f5;
+  border-top: 1px solid #ddd;
+  text-align: center;
+}
+
+/* ---------- Task framework styles (do not modify) ---------- */
+
+.board {
+  max-height: 320px;
+  overflow: auto;
+  border: 1px solid #ddd;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: clamp(14px, 3.6vw, 16px);
+}
+
+th,
+td {
+  padding: 10px clamp(6px, 1.5vw, 12px);
+  text-align: left;
+  white-space: nowrap;
+}
+
+th:nth-child(3),
+td:nth-child(3) {
+  white-space: normal;
+}
+
+thead th {
+  background-color: var(--brand);
+  color: var(--ink);
+  font-weight: bold;
+}
+
+caption {
+  padding: 10px clamp(6px, 1.5vw, 12px);
+  text-align: left;
+  font-weight: bold;
+}
+
+.status {
+  font-weight: bold;
+}
