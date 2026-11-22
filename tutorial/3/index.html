@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./style.css">
     <script src="./arrow-functions.js" defer></script>
     <script src="./shared-data.js" defer></script>
+    <script src="./objects.js" defer></script>
     <script src="./callbacks.js" defer></script>
     <script src="./array-string-methods.js" defer></script>
     <script src="./local-storage.js" defer></script>
@@ -20,6 +21,7 @@
     <h1>JavaScript</h1>
     <nav>
         <a href="#arrow-functions">Arrow Functions</a>
+        <a href="#objects">Objects</a>
         <a href="#callbacks">Callbacks</a>
         <a href="#array-string-methods">Array &amp; String Methods</a>
         <a href="#local-storage">Local Storage</a>
@@ -39,8 +41,20 @@
         <p class="this-result"></p>
     </section>
 
+    <section id="objects">
+        <h2>2. Objects</h2>
+        <p>An array is an ordered list, read by numeric index (<code>products[0]</code>). An object is a set of named properties, read by key (<code>laptop.price</code>) - use it to describe all the facts about <em>one</em> thing, instead of a list of things.</p>
+
+        <button class="object-details-button">Show laptop object</button>
+        <button class="object-discount-button">Apply 10% discount</button>
+        <button class="object-sale-button">Add "on sale" property</button>
+
+        <p class="object-message"></p>
+        <ul class="object-output"></ul>
+    </section>
+
     <section id="callbacks">
-        <h2>2. Callback Functions</h2>
+        <h2>3. Callback Functions</h2>
         <p>Type a product name and check its stock. The check happens after a short delay, and one of two callback functions runs depending on the result.</p>
 
         <label for="callback-product-input">Product name:</label>
@@ -51,7 +65,7 @@
     </section>
 
     <section id="array-string-methods">
-        <h2>3. Array &amp; String Methods</h2>
+        <h2>4. Array &amp; String Methods</h2>
         <p>These buttons run <code>map()</code>, <code>filter()</code> and <code>reduce()</code> over the same small list of products.</p>
 
         <button class="array-names-button">Show all products</button>
@@ -68,7 +82,7 @@
     </section>
 
     <section id="local-storage">
-        <h2>4. Local Storage</h2>
+        <h2>5. Local Storage</h2>
         <p>Add products to your favourites list. Reload the page - the list is still there, because it's saved in <code>localStorage</code>, not just in memory.</p>
 
         <label for="favourite-input">Product name:</label>
@@ -80,7 +94,7 @@
     </section>
 
     <section id="event-handling">
-        <h2>5. Event Handling</h2>
+        <h2>6. Event Handling</h2>
         <p>A closer look at the event object: submitting a form without reloading the page, mouse events, and keyboard events.</p>
 
         <form class="event-form">
@@ -106,7 +120,7 @@
     </section>
 
     <section id="fetch-products">
-        <h2>6. Fetch + Async/Await</h2>
+        <h2>7. Fetch + Async/Await</h2>
         <p>Load the full product catalogue from <code>products.json</code> instead of using a list typed directly into the script.</p>
         <p><small>Note: this page must be opened through a local server (e.g. VS Code's "Live Server") for <code>fetch()</code> to work - opening the HTML file directly will fail.</small></p>
 

@@ -1,5 +1,5 @@
 // ===================================
-// 6. FETCH + ASYNC/AWAIT
+// 7. FETCH + ASYNC/AWAIT
 // ===================================
 
 // fetch() asks for a file/URL and returns a Promise. Marking a function

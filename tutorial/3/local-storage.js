@@ -1,5 +1,5 @@
 // ===================================
-// 4. LOCAL STORAGE
+// 5. LOCAL STORAGE
 // ===================================
 
 // localStorage only stores strings, so arrays/objects must be converted

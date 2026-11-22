@@ -1,5 +1,5 @@
 // ===================================
-// 2. CALLBACK FUNCTIONS
+// 3. CALLBACK FUNCTIONS
 // ===================================
 
 // A callback is just a function passed into another function to be run later

@@ -1,5 +1,5 @@
 // ===================================
-// 3. ARRAY AND STRING METHODS
+// 4. ARRAY AND STRING METHODS
 // ===================================
 
 // .map() builds a new array by transforming every item

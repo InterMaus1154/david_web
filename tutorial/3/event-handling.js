@@ -1,5 +1,5 @@
 // ===================================
-// 5. EVENT HANDLING
+// 6. EVENT HANDLING
 // ===================================
 
 // Every event listener callback receives an "event" object with details
