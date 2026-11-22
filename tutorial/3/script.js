@@ -254,6 +254,15 @@ eventForm.addEventListener("submit", (event) => {
     eventMessage.textContent = `Form submitted with: "${eventInput.value}"`;
 });
 
+// The "input" event fires on every keystroke (and paste, etc.), so it's
+// how you make something update live as the user types
+const typingInput = document.querySelector(".event-typing-input");
+const typingOutput = document.querySelector(".event-typing-output");
+
+typingInput.addEventListener("input", () => {
+    typingOutput.textContent = typingInput.value;
+});
+
 // Mouse events: mouseenter / mouseleave
 const hoverBox = document.querySelector(".event-hover-box");
 

@@ -90,6 +90,7 @@ label {
 .callback-result,
 .array-message,
 .event-message,
+.event-typing-output,
 .event-keypress-result,
 .fetch-message {
     color: #2563eb;
