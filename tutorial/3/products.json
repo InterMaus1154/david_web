@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Falcon",
+        "brand": "Vortex",
+        "category": "Desktop",
+        "price": 1299.99,
+        "inStock": true,
+        "specs": { "cpu": "Intel Core i7-13700K", "ramGB": 32, "storageGB": 1000 }
+    },
+    {
+        "id": 2,
+        "name": "Titan",
+        "brand": "Titan",
+        "category": "Desktop",
+        "price": 2499.00,
+        "inStock": false,
+        "specs": { "cpu": "Intel Core i9-14900K", "ramGB": 64, "storageGB": 2000 }
+    },
+    {
+        "id": 3,
+        "name": "Aero",
+        "brand": "Aero",
+        "category": "Laptop",
+        "price": 1099.50,
+        "inStock": true,
+        "specs": { "cpu": "AMD Ryzen 7 7840U", "ramGB": 16, "storageGB": 512 }
+    },
+    {
+        "id": 4,
+        "name": "Nimbus",
+        "brand": "Nimbus",
+        "category": "Laptop",
+        "price": 349.99,
+        "inStock": true,
+        "specs": { "cpu": "Intel Celeron N4500", "ramGB": 8, "storageGB": 128 }
+    },
+    {
+        "id": 5,
+        "name": "Quantum",
+        "brand": "Quantum",
+        "category": "Desktop",
+        "price": 699.00,
+        "inStock": true,
+        "specs": { "cpu": "AMD Ryzen 5 7600", "ramGB": 16, "storageGB": 500 }
+    },
+    {
+        "id": 6,
+        "name": "Horizon",
+        "brand": "Horizon",
+        "category": "Laptop",
+        "price": 1899.00,
+        "inStock": true,
+        "specs": { "cpu": "Intel Core i9-13900H", "ramGB": 32, "storageGB": 1000 }
+    },
+    {
+        "id": 7,
+        "name": "Bolt",
+        "brand": "Bolt",
+        "category": "Desktop",
+        "price": 449.99,
+        "inStock": false,
+        "specs": { "cpu": "Intel Core i3-13100", "ramGB": 8, "storageGB": 256 }
+    },
+    {
+        "id": 8,
+        "name": "Zenith",
+        "brand": "Zenith",
+        "category": "Laptop",
+        "price": 899.00,
+        "inStock": true,
+        "specs": { "cpu": "Intel Core i5-1340P", "ramGB": 16, "storageGB": 512 }
+    }
+]

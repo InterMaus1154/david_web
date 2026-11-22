@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript: Next Steps | CoreTech PCs</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+
+<header>
+    <h1>JavaScript</h1>
+    <nav>
+        <a href="#arrow-functions">Arrow Functions</a>
+        <a href="#callbacks">Callbacks</a>
+        <a href="#array-string-methods">Array &amp; String Methods</a>
+        <a href="#local-storage">Local Storage</a>
+        <a href="#event-handling">Event Handling</a>
+        <a href="#fetch-products">Fetch</a>
+    </nav>
+</header>
+
+<main>
+    <section id="arrow-functions">
+        <h2>1. Arrow Functions Recap</h2>
+        <p>Regular functions and arrow functions can do the same job, but they handle <code>this</code> differently. Click each button below to see the difference.</p>
+
+        <button class="this-regular-button">Call regular method</button>
+        <button class="this-arrow-button">Call arrow method</button>
+
+        <p class="this-result"></p>
+    </section>
+
+    <section id="callbacks">
+        <h2>2. Callback Functions</h2>
+        <p>Type a product name and check its stock. The check happens after a short delay, and one of two callback functions runs depending on the result.</p>
+
+        <label for="callback-product-input">Product name:</label>
+        <input type="text" id="callback-product-input" class="callback-product-input" placeholder="e.g. Aero">
+        <button class="callback-check-button">Check stock</button>
+
+        <p class="callback-result"></p>
+    </section>
+
+    <section id="array-string-methods">
+        <h2>3. Array &amp; String Methods</h2>
+        <p>These buttons run <code>map()</code>, <code>filter()</code> and <code>reduce()</code> over the same small list of products.</p>
+
+        <button class="array-names-button">Show all products</button>
+        <button class="array-instock-button">Show in-stock only</button>
+        <button class="array-total-button">Total value</button>
+
+        <p>
+            <label for="array-search-input">Search by name:</label>
+            <input type="text" id="array-search-input" class="array-search-input" placeholder="e.g. aero">
+        </p>
+
+        <p class="array-message"></p>
+        <ul class="array-output"></ul>
+    </section>
+
+    <section id="local-storage">
+        <h2>4. Local Storage</h2>
+        <p>Add products to your favourites list. Reload the page - the list is still there, because it's saved in <code>localStorage</code>, not just in memory.</p>
+
+        <label for="favourite-input">Product name:</label>
+        <input type="text" id="favourite-input" class="favourite-input" placeholder="e.g. Titan">
+        <button class="favourite-add-button">Add to favourites</button>
+        <button class="favourite-clear-button">Clear favourites</button>
+
+        <ul class="favourite-list"></ul>
+    </section>
+
+    <section id="event-handling">
+        <h2>5. Event Handling</h2>
+        <p>A closer look at the event object: submitting a form without reloading the page, mouse events, and keyboard events.</p>
+
+        <form class="event-form">
+            <label for="event-input">Say something:</label>
+            <input type="text" id="event-input" class="event-input" placeholder="Type a message">
+            <button type="submit">Submit</button>
+        </form>
+        <p class="event-message"></p>
+
+        <div class="event-hover-box">Hover over me</div>
+
+        <p>
+            <label for="event-keypress-input">Press Enter when done:</label>
+            <input type="text" id="event-keypress-input" class="event-keypress-input" placeholder="Type then press Enter">
+        </p>
+        <p class="event-keypress-result"></p>
+    </section>
+
+    <section id="fetch-products">
+        <h2>6. Fetch + Async/Await</h2>
+        <p>Load the full product catalogue from <code>products.json</code> instead of using a list typed directly into the script.</p>
+        <p><small>Note: this page must be opened through a local server (e.g. VS Code's "Live Server") for <code>fetch()</code> to work - opening the HTML file directly will fail.</small></p>
+
+        <button class="fetch-button">Load products from JSON</button>
+
+        <p class="fetch-message"></p>
+        <ul class="fetch-product-list"></ul>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 CoreTech PCs</p>
+</footer>
+
+</body>
+</html>
