@@ -1,0 +1,194 @@
+[
+  {
+    "name": "AMD Ryzen 5 7600X",
+    "description": "6-core, 12-thread desktop processor with 4.7 GHz base clock, AM5 socket.",
+    "price": 199.99,
+    "category": "CPU",
+    "stock": 7,
+    "image": "https://placehold.co/400x300?text=AMD+Ryzen+5+7600X"
+  },
+  {
+    "name": "AMD Ryzen 7 7800X3D",
+    "description": "8-core gaming processor with 3D V-Cache, AM5 socket.",
+    "price": 369.99,
+    "category": "CPU",
+    "stock": 3,
+    "image": "https://placehold.co/400x300?text=AMD+Ryzen+7+7800X3D"
+  },
+  {
+    "name": "Intel Core i5-13600K",
+    "description": "14-core (6P+8E) unlocked processor, LGA1700 socket.",
+    "price": 279.99,
+    "category": "CPU",
+    "stock": 12,
+    "image": "https://placehold.co/400x300?text=Intel+Core+i5-13600K"
+  },
+  {
+    "name": "Intel Core i9-13900K",
+    "description": "24-core (8P+16E) flagship unlocked processor, LGA1700 socket.",
+    "price": 529.99,
+    "category": "CPU",
+    "stock": 0,
+    "image": "https://placehold.co/400x300?text=Intel+Core+i9-13900K"
+  },
+  {
+    "name": "NVIDIA GeForce RTX 4060",
+    "description": "8 GB GDDR6 graphics card for 1080p gaming with DLSS 3.",
+    "price": 299.99,
+    "category": "GPU",
+    "stock": 9,
+    "image": "https://placehold.co/400x300?text=NVIDIA+GeForce+RTX+4060"
+  },
+  {
+    "name": "NVIDIA GeForce RTX 4070 Super",
+    "description": "12 GB GDDR6X graphics card for high-refresh 1440p gaming.",
+    "price": 599.99,
+    "category": "GPU",
+    "stock": 4,
+    "image": "https://placehold.co/400x300?text=NVIDIA+GeForce+RTX+4070+Super"
+  },
+  {
+    "name": "AMD Radeon RX 7800 XT",
+    "description": "16 GB GDDR6 graphics card aimed at 1440p gaming.",
+    "price": 499.99,
+    "category": "GPU",
+    "stock": 6,
+    "image": "https://placehold.co/400x300?text=AMD+Radeon+RX+7800+XT"
+  },
+  {
+    "name": "NVIDIA GeForce RTX 4090",
+    "description": "24 GB GDDR6X enthusiast graphics card for 4K gaming and AI workloads.",
+    "price": 1599.99,
+    "category": "GPU",
+    "stock": 1,
+    "image": "https://placehold.co/400x300?text=NVIDIA+GeForce+RTX+4090"
+  },
+  {
+    "name": "Corsair Vengeance 16GB DDR5-5600",
+    "description": "2x8 GB DDR5 memory kit, CL36, low-profile heatsink.",
+    "price": 64.99,
+    "category": "RAM",
+    "stock": 15,
+    "image": "https://placehold.co/400x300?text=Corsair+Vengeance+16GB+DDR5-5600"
+  },
+  {
+    "name": "G.Skill Trident Z5 32GB DDR5-6000",
+    "description": "2x16 GB DDR5 memory kit, CL30, RGB lighting.",
+    "price": 129.99,
+    "category": "RAM",
+    "stock": 11,
+    "image": "https://placehold.co/400x300?text=G.Skill+Trident+Z5+32GB+DDR5-6000"
+  },
+  {
+    "name": "Kingston Fury Beast 16GB DDR4-3200",
+    "description": "2x8 GB DDR4 memory kit, CL16, plug-and-play.",
+    "price": 39.99,
+    "category": "RAM",
+    "stock": 14,
+    "image": "https://placehold.co/400x300?text=Kingston+Fury+Beast+16GB+DDR4-3200"
+  },
+  {
+    "name": "Samsung 980 Pro 1TB",
+    "description": "PCIe 4.0 NVMe M.2 SSD with up to 7,000 MB/s read speed.",
+    "price": 99.99,
+    "category": "Storage",
+    "stock": 8,
+    "image": "https://placehold.co/400x300?text=Samsung+980+Pro+1TB"
+  },
+  {
+    "name": "WD Blue SN580 500GB",
+    "description": "PCIe 4.0 NVMe M.2 SSD for everyday computing.",
+    "price": 44.99,
+    "category": "Storage",
+    "stock": 13,
+    "image": "https://placehold.co/400x300?text=WD+Blue+SN580+500GB"
+  },
+  {
+    "name": "Seagate Barracuda 4TB",
+    "description": "3.5-inch 5400 RPM internal hard drive for bulk storage.",
+    "price": 84.99,
+    "category": "Storage",
+    "stock": 5,
+    "image": "https://placehold.co/400x300?text=Seagate+Barracuda+4TB"
+  },
+  {
+    "name": "ASUS TUF Gaming B650-PLUS",
+    "description": "ATX AM5 motherboard with DDR5 support and PCIe 5.0 M.2 slot.",
+    "price": 189.99,
+    "category": "Motherboard",
+    "stock": 6,
+    "image": "https://placehold.co/400x300?text=ASUS+TUF+Gaming+B650-PLUS"
+  },
+  {
+    "name": "MSI MAG B760 Tomahawk",
+    "description": "ATX LGA1700 motherboard with DDR5 and WiFi 6E.",
+    "price": 179.99,
+    "category": "Motherboard",
+    "stock": 2,
+    "image": "https://placehold.co/400x300?text=MSI+MAG+B760+Tomahawk"
+  },
+  {
+    "name": "Corsair RM850x 850W",
+    "description": "80 Plus Gold fully modular power supply.",
+    "price": 139.99,
+    "category": "Power Supply",
+    "stock": 10,
+    "image": "https://placehold.co/400x300?text=Corsair+RM850x+850W"
+  },
+  {
+    "name": "be quiet! Pure Power 12 M 650W",
+    "description": "80 Plus Gold semi-modular power supply with quiet operation.",
+    "price": 94.99,
+    "category": "Power Supply",
+    "stock": 7,
+    "image": "https://placehold.co/400x300?text=be+quiet%21+Pure+Power+12+M+650W"
+  },
+  {
+    "name": "Noctua NH-D15",
+    "description": "Dual-tower air CPU cooler with two 140 mm fans.",
+    "price": 109.99,
+    "category": "Cooling",
+    "stock": 4,
+    "image": "https://placehold.co/400x300?text=Noctua+NH-D15"
+  },
+  {
+    "name": "Arctic Liquid Freezer III 360",
+    "description": "360 mm all-in-one liquid CPU cooler with integrated VRM fan.",
+    "price": 119.99,
+    "category": "Cooling",
+    "stock": 9,
+    "image": "https://placehold.co/400x300?text=Arctic+Liquid+Freezer+III+360"
+  },
+  {
+    "name": "NZXT H5 Flow",
+    "description": "Mid-tower ATX case with high-airflow front panel.",
+    "price": 94.99,
+    "category": "Case",
+    "stock": 12,
+    "image": "https://placehold.co/400x300?text=NZXT+H5+Flow"
+  },
+  {
+    "name": "Fractal Design North",
+    "description": "Mid-tower ATX case with walnut front panel and mesh airflow.",
+    "price": 139.99,
+    "category": "Case",
+    "stock": 0,
+    "image": "https://placehold.co/400x300?text=Fractal+Design+North"
+  },
+  {
+    "name": "LG UltraGear 27GP850-B",
+    "description": "27-inch 1440p Nano IPS gaming monitor, 165 Hz, 1 ms response.",
+    "price": 329.99,
+    "category": "Monitor",
+    "stock": 5,
+    "image": "https://placehold.co/400x300?text=LG+UltraGear+27GP850-B"
+  },
+  {
+    "name": "Logitech MX Keys S",
+    "description": "Wireless backlit keyboard with smart illumination and multi-device pairing.",
+    "price": 109.99,
+    "category": "Peripherals",
+    "stock": 15,
+    "image": "https://placehold.co/400x300?text=Logitech+MX+Keys+S"
+  }
+]

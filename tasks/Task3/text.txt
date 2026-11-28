@@ -1,0 +1,32 @@
+HEADER
+Logo alt text: TechParts logo
+Nav links: Home | Products
+Cart button: Cart
+
+HERO
+Title: Build Your Dream PC
+Subtitle: Top-quality CPUs, GPUs, RAM and more at unbeatable prices. Browse our range, pick your parts and power up your setup today.
+
+PRODUCTS
+Section title: Browse our products
+Search label: Search by name
+Search placeholder: e.g. Ryzen 5
+Category label: Category
+Category default option: All categories
+Filter button: Filter
+Reset button: Reset filter
+Empty category message: No products in this category
+
+PRODUCT CARD
+Add button: Add to cart
+Out of stock button: Add to cart (disabled)
+Price label: Price
+Stock label: Stock
+
+CART
+Cart title: Your cart
+Empty cart message: Your cart is empty
+Quantity label: Qty
+Remove button: Delete
+Total label: Total
+Close button: Close
